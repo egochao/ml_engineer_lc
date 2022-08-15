@@ -14,6 +14,7 @@
   - [a. Model include in the work - No parameters search](#a-model-include-in-the-work---no-parameters-search)
   - [b. Model optimized with Optuna](#b-model-optimized-with-optuna)
   - [b. Model train with distillation loss](#b-model-train-with-distillation-loss)
+  - [d. Hightlight point](#d-hightlight-point)
 - [5. Challenge I face](#5-challenge-i-face)
   - [a. New technology](#a-new-technology)
   - [b. Issue with torch version and random seed](#b-issue-with-torch-version-and-random-seed)
@@ -76,22 +77,31 @@ Some of these technologies are new to me => I want to show my ability to learn n
 ### 4. My result
 
 #### a. Model include in the work - No parameters search
-| Model      | Description |  Params-byte size | Model accuracy | |
+| Model      | Description |  Params | Model accuracy | |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| Simple Convolution      | A straight forward 1D convolution    | 26900 - 108kb | 94.2% |
-| BC Resnet   | Experiment logging        | 10600 - 42 kb | 95.6% |  |
+| Simple Convolution      | A straight forward 1D convolution    | 26900 | 94.2% |
+| BC Resnet   | Experiment logging        | 10600 | 95.6% |  |
 
 #### b. Model optimized with Optuna
-| Model      | Description |  Params-byte size | Model accuracy | |
+| Model      | Description |  Params | Model accuracy | |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| Simple Convolution      | A straight forward 1D convolution    | 35000 - 140kb | 95.1% | |
-| BC Resnet   | Experiment logging        |  |  | |
+| Simple Convolution      | A straight forward 1D convolution    | 35000 | 95.1% | |
+| BC Resnet   | Experiment logging        | 22000 | 98.3% - best | |
 
 #### b. Model train with distillation loss
-| Model      | Description |  Params-byte size | Model accuracy | |
+| Model      | Description |  Params | Model accuracy | |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| Simple Convolution      | A straight forward 1D convolution    | 28600 - 114kb | 90.3% | |
+| Simple Convolution      | A straight forward 1D convolution    | 28600 | 90.3% | |
 | BC Resnet   | Experiment logging        |  |  | |
+
+
+#### d. Hightlight point
+- My best model have 22k parameters and accuracy on test set = 98.3% (Optuna optimized)
+- Almost beat the state-of-art(98.5)
+- The model size is superior compare with all other state-of-art model by some order of magnitude
+- The distillation process is not success and it causing the model perform worst than non distill
+
+![image](data/my_best_result.png)
 
 
 ### 5. Challenge I face
