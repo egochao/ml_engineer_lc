@@ -101,7 +101,7 @@ Some of these technologies are new to me => I want to show my ability to learn n
 - The model size is superior compare with all other state-of-art model by some order of magnitude
 - The distillation process is not success and it causing the model perform worst than non distill
 
-![image]([data/my_best_result.png](https://github.com/egochao/ml_engineer_lc/blob/main/data/my_best_result.png))
+![image]([data/my_best_result.png](https://github.com/egochao/ml_engineer_lc/blob/main/data/my_best_result.png?raw=true))
 
 
 ### 5. Challenge I face
