@@ -21,6 +21,7 @@
   - [c. Issue with GPU shareable development env](#c-issue-with-gpu-shareable-development-env)
 - [6. Thing I would like to do better.](#6-thing-i-would-like-to-do-better)
   - [a. Test](#a-test)
+- [7. Link to trained model + resource](#7-link-to-trained-model--resource)
 
 ### 1. Task definition
 Build a proof of concept speech keyword spotting model using modern deep learning architectures and techniques.
@@ -119,4 +120,10 @@ Some of these technologies are new to me => I want to show my ability to learn n
 ### 6. Thing I would like to do better.
 #### a. Test
 - I make a classic mistake. Thought I can finish this fast and test for model is a bit confusing. This prove to be a fatal mistake. I was slowdown massively due to breaking change that I found late and other issue with work flow. Lesson learnt
+
+### 7. Link to trained model + resource
+
+- [Logit data](https://drive.google.com/file/d/1VhFxooFVE6Ph4V2QSM4PMyMPNW9iZg9g/view?usp=sharing)
+- [Best simple convolution](https://drive.google.com/file/d/1UUiVjE6VYYbvXDA6bBnv4zCKe89vHLs1/view?usp=sharing) : 95.1% [link to wandb report](https://wandb.ai/johnoldman/ViT_experiments/reports/Simple-convolution-with-optuna-parameters--VmlldzoyNDc0Mjgy?accessToken=kl36zi4301sy0b880d3q20m7x8u5fty3mgxj6i7w5a1xxu40pum2lhci80fbp7yt)
+- [Best Bc ResNet](https://drive.google.com/file/d/1yg8Aag0k_DMn4X25vaI7Vb8R32DuWBw7/view?usp=sharing) : 98.3% [link to wandb report](https://wandb.ai/johnoldman/ViT_experiments/reports/Best-bc-resnet---VmlldzoyNDc0NjAw?accessToken=0gusdixg3zt5aigffk9ueeca5gz3qsnbf7ofri1ex36jc1pfasx2ot31tm34743m)
 
